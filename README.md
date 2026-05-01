@@ -29,8 +29,8 @@ The CLI behind it is the open-source [vercel-labs/skills](https://github.com/ver
 
 | Skill | 中文名 | What it does · 做什么 |
 |---|---|---|
-| [anet-intent-grill](./skills/anet-intent-grill/SKILL.md) | 意图烤问 🔥 | Distill the real **intent** behind a plan — walk down each branch of the decision tree and resolve dependencies one by one. 在动手 build 之前把模糊的"想做这个"蒸馏成 leaf-level 的明确 intent。 |
-| [anet-lexicon-sync](./skills/anet-lexicon-sync/SKILL.md) | 词表同步 📘 | Synchronise the working **lexicon** for the current task — hunt down vague / overloaded / conflicting terms, lock each to a canonical definition, and pin the resolved vocabulary inline into `CONTEXT.md` + ADRs. 把本次任务里模棱两可、同名异义的词全部拍死。 |
+| [anet-intent-grill](./skills/anet-intent-grill/SKILL.md) | 意图烤问 | Distill the real **intent** behind a plan — walk down each branch of the decision tree and resolve dependencies one by one. 在动手 build 之前把模糊的"想做这个"蒸馏成 leaf-level 的明确 intent。 |
+| [anet-lexicon-sync](./skills/anet-lexicon-sync/SKILL.md) | 词表同步 | Synchronise the working **lexicon** for the current task — hunt down vague / overloaded / conflicting terms, lock each to a canonical definition, and pin the resolved vocabulary inline into `CONTEXT.md` + ADRs. 把本次任务里模棱两可、同名异义的词全部拍死。 |
 
 Both skills are written in **English + Chinese mixed style**, work with any LLM, and are not coupled to AgentNetwork itself — use them on any project.
 
