@@ -1,0 +1,7 @@
+{
+  "name": "anet-skills",
+  "skills": [
+    "./skills/anet-intent-grill",
+    "./skills/anet-lexicon-sync"
+  ]
+}
